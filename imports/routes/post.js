@@ -11,7 +11,7 @@ ${ headRenderer( {
 ${ headerRenderer() }
 	<main>
 		<h1>
-			${ post.title }
+			${ post.meta.title }
 		</h1>
 		${ marked( post.content ) }
 	</main>
